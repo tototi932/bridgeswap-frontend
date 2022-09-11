@@ -11,7 +11,7 @@ const Title = styled(Heading).attrs({ as: 'h1', scale: 'xl' })`
 `
 
 const ComeBack = styled(Text)`
-  background: -webkit-linear-gradient(#000000, #000000);
+  background: -webkit-linear-gradient(#0a0a0a, #0a0a0a);
   font-size: 24px;
   font-weight: 600;
   -webkit-background-clip: text;
@@ -19,7 +19,7 @@ const ComeBack = styled(Text)`
 `
 
 const StyledHero = styled.div`
-  background-image: linear-gradient(#000000, #000000);
+  background-image: linear-gradient(#0a0a0a, #0a0a0a);
   max-height: max-content;
   overflow: hidden;
   ${({ theme }) => theme.mediaQueries.sm} {
