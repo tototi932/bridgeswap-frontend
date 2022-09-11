@@ -6,7 +6,7 @@ import { useTranslation } from 'contexts/Localization'
 
 const HowToPlayContainer = styled.div`
     border-radius: 20px;
-    background: linear-gradient(245.94deg, rgba(8, 8, 56, 0.2) -63.8%, rgba(17, 17, 139, 0.2) 73.44%);
+    background: linear-gradient(245.94deg, rgba(10, 10, 10, 0.2) -63.8%, rgba(10, 10, 10, 0.2) 73.44%);
     padding: 20px;
     text-align: center;
     margin-bottom: 10px;
@@ -50,7 +50,7 @@ const PlaySteps = styled(Flex)`
 `
 
 const Steps = styled.div`
-    background: #15154F;
+    background: #141414;
     border-radius: 10px;
     padding: 20px 15px;
     text-align: left;
@@ -92,20 +92,20 @@ const HowToPlay = () => {
                     <StepNumber>1</StepNumber>
                     <Heading mb='10px' color='text'>{t("Buy Tickets")}</Heading>
                     <Text style={{ color: "rgba(255, 255, 255, 0.7)", fontSize: "12px" }}>
-                        {t("Prices are set when the round starts, equal to $1 in BRIS per ticket.")}
+                        {t("Prices are set when the round starts, equal to $1 in DGF per ticket.")}
                     </Text>
                 </Steps>
                 <Steps>
                     <StepNumber>2</StepNumber>
                     <Heading mb='10px' color='text'>{t("Wait for the Draw")}</Heading>
-                    <Text style={{ color: "rgba(255, 255, 255, 0.7)", fontSize: "12px" }}>
+                    <Text style={{ color: "rgba(184, 135, 11, 0.7)", fontSize: "12px" }}>
                         {t("There is one draw every day alternating between 0 AM UTC and 12 PM UTC.")}
                     </Text>
                 </Steps>
                 <Steps>
                     <StepNumber>3</StepNumber>
                     <Heading mb='10px' scale="md" color='text'>{t("Check for Prizes")}</Heading>
-                    <Text style={{ color: "rgba(255, 255, 255, 0.7)", fontSize: "12px" }}>
+                    <Text style={{ color: "rgba(184, 135, 11, 0.7)", fontSize: "12px" }}>
                         {t("Once the round’s over, come back to the page and check to see if you’ve won!")}
                     </Text>
                 </Steps>
