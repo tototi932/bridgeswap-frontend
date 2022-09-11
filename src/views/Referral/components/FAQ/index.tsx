@@ -7,7 +7,7 @@ import styled from 'styled-components'
 
 const FaqContainer = styled(Flex)`
     border-radius: 20px;
-    background: linear-gradient(248.11deg, #14146E 25.22%, #2626BE 122.1%);
+    background: linear-gradient(248.11deg, #0a0a0a 25.22%, #0a0a0a 122.1%);
     padding: 20px;
     justify-content: center;
     align-items: center;    
@@ -55,7 +55,7 @@ const Faq = () => {
             <Wordings>
                 <Heading color='text'>{t("Got questions?")}</Heading>
                 <Text mb='20px' fontSize='14px' color='text'>{t("Go over our detailed explanation in the docs section.")}</Text>
-                <DocsLink href='https://bridgeswap-exchange-1.gitbook.io/bridgeswap/core-products/referral-program' target='_blank' rel='noreferrer noopener'>
+                <DocsLink href='#' target='_blank' rel='noreferrer noopener'>
                     <Text fontSize='14px' color='text'>
                         {t('Go to docs')}
                         &#x2192;
