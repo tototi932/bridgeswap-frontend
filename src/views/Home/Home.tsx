@@ -144,7 +144,7 @@ const BridgeBoard = styled.div`
   align-items: center;
   box-shadow: 3px 7px 5px 7px #121254;
   border-radius: 20px;
-  background: #09092b;
+  background: #0a0a0a;
   max-width: 98%;
   display: flex;
   justify-content: center;
@@ -256,7 +256,7 @@ const Partners = styled(Grid)`
   }
 `
 const Partner = styled.div`
-  background: #18186b;
+  background: #0a0a0a;
   height: auto;
   width: 75px;
   border-radius: 5px;
@@ -305,7 +305,7 @@ const AuditCard: React.FC = () => {
         style={{
           padding: '16px',
           display: 'flex',
-          backgroundColor: '#333376',
+          backgroundColor: '#0a0a0a',
           borderRadius: '8px',
           color: 'white',
           height: 'fit-content',
