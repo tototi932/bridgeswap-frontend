@@ -25,7 +25,7 @@ const Board = styled.div`
     margin: 0 auto;
     margin-bottom: 10px;
     padding: 20px;
-    background-color: #0F0F71;
+    background-color: #141414;
     background-image: url(/images/decorations/lottery-prize-bg.svg);
     background-position: center;
     ${({ theme }) => theme.mediaQueries.sm} {
