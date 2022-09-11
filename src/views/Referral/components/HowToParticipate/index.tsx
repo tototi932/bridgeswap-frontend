@@ -6,7 +6,7 @@ import { useTranslation } from 'contexts/Localization'
 
 const HowToPlayContainer = styled.div`
     border-radius: 20px;
-    background: linear-gradient(245.94deg, rgba(10, 10, 10, 0.2) -63.8%, rgba(10, 10, 10, 0.2) 73.44%);
+    background: linear-gradient(245.94deg, rgba(8, 8, 56, 0.2) -63.8%, rgba(17, 17, 139, 0.2) 73.44%);
     padding: 20px;
     text-align: center;
     margin-bottom: 10px;
