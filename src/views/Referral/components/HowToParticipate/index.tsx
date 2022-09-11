@@ -6,7 +6,7 @@ import { useTranslation } from 'contexts/Localization'
 
 const HowToPlayContainer = styled.div`
     border-radius: 20px;
-    background: linear-gradient(245.94deg, rgba(8, 8, 56, 0.2) -63.8%, rgba(17, 17, 139, 0.2) 73.44%);
+    background: linear-gradient(245.94deg, rgba(10, 10, 10, 0.2) -63.8%, rgba(10, 10, 10, 0.2) 73.44%);
     padding: 20px;
     text-align: center;
     margin-bottom: 10px;
@@ -50,7 +50,7 @@ const PlaySteps = styled(Flex)`
 `
 
 const Steps = styled.div`
-    background: #15154F;
+    background: #0a0a0a;
     border-radius: 10px;
     padding: 20px 15px;
     text-align: left;
@@ -68,7 +68,7 @@ const Steps = styled.div`
 `
 const StepNumber = styled(Flex)`
     color: ${({ theme }) => theme.colors.text};
-    background: linear-gradient(155.08deg, #FA00FF -35.34%, #17D2FB 134.08%);
+    background: linear-gradient(155.08deg, #0a0a0a -35.34%, #0a0a0a 134.08%);
     border-radius: 12px;
     width: 49px;
     height: 47px;
@@ -106,7 +106,7 @@ const HowToParticipate = () => {
                     <StepNumber>3</StepNumber>
                     <Heading mb='10px' scale="md" color='text'>{t("Earn crypto")}</Heading>
                     <Text style={{ color: "rgba(255, 255, 255, 0.7)", fontSize: "12px" }}>
-                        {t("Receive referral rewards in BRIS tokens from your friends’ earnings forever.")}
+                        {t("Receive referral rewards in DGF tokens from your friends’ earnings forever.")}
                     </Text>
                 </Steps>
             </PlaySteps>
