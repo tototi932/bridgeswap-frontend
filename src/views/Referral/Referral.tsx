@@ -48,7 +48,7 @@ const SpeakerImg2 = styled.img`
 
 const ReferralLink = styled.div`
     border-radius: 20px;
-    background: linear-gradient(245.94deg, rgba(8, 8, 56, 0.2) -63.8%, rgba(17, 17, 139, 0.2) 73.44%);
+    background: linear-gradient(245.94deg, rgba(10, 10, 10, 0.2) -63.8%, rgba(10, 10, 10, 0.2) 73.44%);
     // text-align: center;
     margin-bottom: 10px;
 
@@ -69,7 +69,7 @@ const ReferralPad = styled(Flex)`
 `
 
 const ReferralStatus = styled.div`
-    background: linear-gradient(245.94deg, rgba(8, 8, 56, 0.2) -63.8%, rgba(17, 17, 139, 0.2) 73.44%);
+    background: linear-gradient(245.94deg, rgba(10, 10, 10, 0.2) -63.8%, rgba(10, 10, 10, 0.2) 73.44%);
     border-radius: 30px;
     flex: 0 0 100%;
     width: 100%;
@@ -105,7 +105,7 @@ const Title = styled(Flex)`
 `
 
 const LinkPad = styled.div`
-    background: #143771;
+    background: #0a0a0a;
     border-radius: 7px;
     // flex: 0 0 100%;
     width: 100%;
