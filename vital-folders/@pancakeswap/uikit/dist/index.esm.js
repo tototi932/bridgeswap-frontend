@@ -2808,19 +2808,19 @@ var useKonamiCheatCode = function (matchedCodeHandler) {
 };
 
 var baseColors = {
-    failure: "#daa520",
-    primary: "#daa520",
-    primaryBright: "#daa520",
-    primaryDark: "#daa520",
-    secondary: "#330099",
-    success: "#faca6b",
-    warning: "#daa520",
+    failure: "#b8870b",
+    primary: "#b8870b",
+    primaryBright: "#b8870b",
+    primaryDark: "#b8870b",
+    secondary: "#b8870b",
+    success: "#b8870b",
+    warning: "#b8870b",
 };
 var additionalColors = {
-    binance: "#daa520",
-    overlay: "#452a7a",
+    binance: "#b8870b",
+    overlay: "#b8870b",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#000000", backgroundDisabled: "#9595e9", backgroundAlt: "#505052", cardBorder: "#facdc3", contrast: "#311b17", dropdown: "#F6F6F6", dropdownDeep: "#EEEEEE", invertedContrast: "#FFFFFF", bright: "#ffffff", blue: "#17D2FB", input: "#ffffff", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#ffffff", textDisabled: "#dad5d5", textSubtle: "#8c8c8c", disabled: "#E9EAEB", menuHover: "#F7AD19", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#000000", backgroundDisabled: "#9595e9", backgroundAlt: "#0a0a0a", cardBorder: "#facdc3", contrast: "#311b17", dropdown: "#F6F6F6", dropdownDeep: "#EEEEEE", invertedContrast: "#FFFFFF", bright: "#ffffff", blue: "#17D2FB", input: "#ffffff", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#ffffff", textDisabled: "#dad5d5", textSubtle: "#8c8c8c", disabled: "#E9EAEB", menuHover: "#F7AD19", gradients: {
         bluePurple: "linear-gradient(90.82deg, #FA00FF -73.84%, #17D2FB 141.1%)",
         bubblegum: "linear-gradient(245.94deg, rgba(8, 8, 56, 0.2) -63.8%, rgba(17, 17, 139, 0.2) 73.44%)",
         inverseBubblegum: "linear-gradient(245.94deg, rgba(8, 8, 56, 0.2) -63.8%, rgba(17, 17, 139, 0.2) 73.44%)",
