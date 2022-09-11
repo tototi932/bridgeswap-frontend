@@ -11,7 +11,7 @@ const ticketPrice = 1
 
 const LotteryInfo = styled.div`
     display: flex;
-    background-image: url(/images/decorations/bg-design-large.svg);
+    background-image: url(/images/decorations/);
     background-repeat: no-repeat;
     background-position: top center;
     flex-direction: column;
