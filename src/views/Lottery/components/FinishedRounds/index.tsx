@@ -17,7 +17,7 @@ import HistoryButtons from './HistoryButtons'
 
 const RoundsContainer = styled.div`
     border-radius: 20px;
-    background: linear-gradient(245.94deg, rgba(8, 8, 56, 0.2) -63.8%, rgba(17, 17, 139, 0.2) 73.44%);
+    background: linear-gradient(245.94deg, rgba(10, 10, 10, 0.2) -63.8%, rgba(10, 10, 10, 0.2) 73.44%);
     padding: 40px;
     margin-bottom: 10px; 
 `
@@ -41,7 +41,7 @@ const RoundDate = styled(Flex)`
 `
 const RoundNum = styled.span`
     color: ${({ theme }) => theme.colors.bright};
-    background: #15154F;
+    background: #000000;
     border-radius: 50px;
     padding: 1px 6px;
     margin: 0 3px;
@@ -57,7 +57,7 @@ const PrizeWinningContainer = styled(Flex)`
     }
 `
 const PrizePot = styled.div`
-    background: #15154F;
+    background: #000000;
     border-radius: 30px;
     flex: 0 0 100%;
     width: 100%;
@@ -100,7 +100,7 @@ const TotalTickets = styled(Text)`
 
 const WinningNumber = styled.div`
     padding: 20px;
-    background: #15154F;
+    background: #000000;
     border-radius: 30px;
     width: 100%;
     text-align: center;
