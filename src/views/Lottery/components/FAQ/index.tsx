@@ -7,7 +7,7 @@ import styled from 'styled-components'
 
 const FaqContainer = styled(Flex)`
     border-radius: 20px;
-    background: linear-gradient(248.11deg, #141414 25.22%, #141414 122.1%);
+    background: linear-gradient(248.11deg, #000000 25.22%, #000000 122.1%);
     padding: 20px;
     justify-content: center;
     align-items: center;    
