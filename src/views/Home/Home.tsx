@@ -142,9 +142,9 @@ const AdsCards = styled(BaseLayout)`
 
 const BridgeBoard = styled.div`
   align-items: center;
-  box-shadow: 3px 7px 5px 7px #121254;
+  box-shadow: 3px 7px 5px 7px #b8870b;
   border-radius: 20px;
-  background: #0a0a0a;
+  background: #141414;
   max-width: 98%;
   display: flex;
   justify-content: center;
@@ -305,7 +305,7 @@ const AuditCard: React.FC = () => {
         style={{
           padding: '16px',
           display: 'flex',
-          backgroundColor: '#0a0a0a',
+          backgroundColor: '#141414',
           borderRadius: '8px',
           color: 'white',
           height: 'fit-content',
