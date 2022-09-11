@@ -25,8 +25,8 @@ const Board = styled.div`
     margin: 0 auto;
     margin-bottom: 10px;
     padding: 20px;
-    background-color: linear-gradient(245.94deg, rgba(10, 10, 10, 0.2) -63.8%, rgba(10, 10, 10, 0.2) 73.44%);
-    background-image: url(/images/decorations/);
+    background-color: #141414;
+    background-image: url(/images/decorations/lottery-prize-bg.svg);
     background-position: center;
     ${({ theme }) => theme.mediaQueries.sm} {
         padding: 50px;
