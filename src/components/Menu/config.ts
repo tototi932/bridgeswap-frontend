@@ -113,8 +113,8 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     icon: 'MoreIcon',
     items: [
       {
-        label: t('Team'),
-        href: 'https://bridgeswap-exchange-1.gitbook.io/bridgeswap/our-team',
+        label: t('Whitepaper'),
+        href: 'https://doge-gold-floki-finance.gitbook.io/dgf/',
       },
       // {
       //   label: t('Voting'),
