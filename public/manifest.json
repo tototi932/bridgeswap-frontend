@@ -1,7 +1,7 @@
 {
-  "short_name": "BridgeSwap",
-  "name": "BridgeSwap",
-  "description": "Farm BRIS with BridgeSwap LP Tokens",
+  "short_name": "Doge Gold Floki",
+  "name": "Doge Gold Floki",
+  "description": "Farm DGF with DogeGoldFlokiSwap LP Tokens",
   "icons": [
     {
       "src": "favicon.svg",
