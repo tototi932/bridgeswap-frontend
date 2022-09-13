@@ -3,7 +3,7 @@ import { ContextApi } from 'contexts/Localization/types'
 
 const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
   {
-    label: t('Home'),
+    label: t('Home Website'),
     icon: 'HomeIcon',
     href: '/',
   },
@@ -33,7 +33,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     href: '/pools',
   },
   {
-    label: "Defi 2.0 Zap",
+    label: "Home",
     icon: "DefiIcon",
     href: "/defi",
   },
@@ -86,25 +86,29 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     icon: 'InfoIcon',
      items: [
        {
-         label: t('Overview'),
-         href: 'https://bridgeswap.info',
+         label: t('CoinMarketCap'),
+         href: 'https://coinmarketcap.com/',
        },
        {
-         label: t('Tokens'),
-        href: 'https://bridgeswap.info/tokens',
+         label: t('CoinGecko'),
+        href: 'https://www.coingecko.com/',
        },
        {
-         label: t('Pairs'),
-         href: 'https://bridgeswap.info/pairs',
+         label: t('Crypto.com'),
+        href: 'https://crypto.com/',
        },
        {
-         label: t('Accounts'),
-         href: 'https://bridgeswap.info/accounts',
+         label: t('DappRadar'),
+         href: 'https://dappradar.com/',
+       },
+       {
+         label: t('Nomics'),
+         href: 'https://nomics.com/',
        },
      ],
    },
    {
-     label: t('Listings'),
+     label: t('Network status'),
      icon: 'IfoIcon',
      href: 'https://pancakeswap.finance/ifo',
    },
