@@ -587,7 +587,7 @@ const Home: React.FC = () => {
             {t('Doge Gold Floki Partners')}
           </Heading>
           <Partners>
-            {partners.map((partner) => (
+            {partners.map((Doge Gold Floki) => (
               <Skeleton />
             ))}
           </Partners>
