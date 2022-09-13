@@ -3285,7 +3285,7 @@ var Icon$p = function (props) {
 var Logo$2 = function (_a) {
     _a.isDark; var props = __rest(_a, ["isDark"]);
     return (React.createElement(Svg, __assign({ width="150.000000pt", height="149.000000pt", viewBox="0 0 150.000000 149.000000", fill: "none" }, props),
-        React.createElement("path", { d: "M96 886 c-3 -13 -9 -31 -12 -40 -5 -14 7 -16 95 -16 l101 0 0 40 040 -89 0 c-86 0 -89 -1 -95 -24z M113 779 l-33 -10 0 -124 0 -125 98 0 98 0 1 40 1 40 -54 0 -54 0 0 95 c0 103 1 101 -57 84z M894 545 c5 -19 2 -25 -10 -25 -20 0 -13 -22 8 -26 22 -3 47 16 31 23 -8 3 -11 14 -7 29 5 18 2 24 -11 24 -13 0 -16 -6 -11 -25z", fill: "#F8A61C" })));
+        React.createElement("path", { d: "M96 886 c-3 -13 -9 -31 -12 -40 -5 -14 7 -16 95 -16 l101 0 0 40 040 -89 0 c-86 0 -89 -1 -95 -24z", fill: "#F8A61C" })));
 };
                                 
 var LogoWithText = React.memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
