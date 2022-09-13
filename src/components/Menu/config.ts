@@ -106,7 +106,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
    {
      label: t('Listings'),
      icon: 'IfoIcon',
-     href: '/ifo',
+     href: 'https://pancakeswap.finance/ifo',
    },
   {
     label: t('More'),
