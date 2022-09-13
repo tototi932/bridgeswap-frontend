@@ -80,34 +80,34 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
   //       href: '/profile',
   //     },
   //   ],
-  // },
-  // {
-  //   label: t('Info'),
-  //   icon: 'InfoIcon',
-  //   items: [
-  //     {
-  //       label: t('Overview'),
-  //       href: 'https://bridgeswap.info',
-  //     },
-  //     {
-  //       label: t('Tokens'),
-  //       href: 'https://bridgeswap.info/tokens',
-  //     },
-  //     {
-  //       label: t('Pairs'),
-  //       href: 'https://bridgeswap.info/pairs',
-  //     },
-  //     {
-  //       label: t('Accounts'),
-  //       href: 'https://bridgeswap.info/accounts',
-  //     },
-  //   ],
-  // },
-  // {
-  //   label: t('IFO'),
-  //   icon: 'IfoIcon',
-  //   href: '/ifo',
-  // },
+ // },
+   {
+     label: t('Info'),
+    icon: 'InfoIcon',
+     items: [
+       {
+         label: t('Overview'),
+         href: 'https://bridgeswap.info',
+       },
+       {
+         label: t('Tokens'),
+        href: 'https://bridgeswap.info/tokens',
+       },
+       {
+         label: t('Pairs'),
+         href: 'https://bridgeswap.info/pairs',
+       },
+       {
+         label: t('Accounts'),
+         href: 'https://bridgeswap.info/accounts',
+       },
+     ],
+   },
+   {
+     label: t('IFO'),
+     icon: 'IfoIcon',
+     href: '/ifo',
+   },
   {
     label: t('More'),
     icon: 'MoreIcon',
