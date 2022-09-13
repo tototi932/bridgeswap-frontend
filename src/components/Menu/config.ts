@@ -128,26 +128,6 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
          label: t('AUDIT'),
          href: 'https://docs.bridgeswap.app',
        },
-  {
-    label: t('More'),
-    icon: 'MoreIcon',
-    items: [
-      {
-        label: t('Whitepaper'),
-        href: 'https://doge-gold-floki-finance.gitbook.io/dgf/',
-      },
-       {
-         label: t('SAFU'),
-         href: 'https://voting.bridgeswap.app',
-       },
-       {
-         label: t('KYC'),
-         href: 'https://github.com/Bridgeswap-Dex',
-       },
-       {
-         label: t('AUDIT'),
-         href: 'https://docs.bridgeswap.app',
-       },
       // {
       //   label: t('Blog'),
       //   href: 'https://bridgeswap.medium.com/',
