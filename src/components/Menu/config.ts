@@ -33,7 +33,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     href: '/pools',
   },
   {
-    label: "Home",
+    label: "launchpad",
     icon: "DefiIcon",
     href: "/defi",
   },
