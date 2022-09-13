@@ -12,47 +12,47 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
   switch (path) {
     case '/':
       return {
-        title: `${t('Home')} | ${t('DogeGoldFlokiSwap')}`,
+        title: `${t('Home')} | ${t('Doge Gold Floki Swap')}`,
       }
     case '/competition':
       return {
-        title: `${t('Trading Battle')} | ${t('DogeGoldFlokiSwap')}`,
+        title: `${t('Trading Battle')} | ${t('Doge Gold Floki Swap')}`,
       }
     case '/prediction':
       return {
-        title: `${t('Prediction')} | ${t('DogeGoldFlokiSwap')}`,
+        title: `${t('Prediction')} | ${t('Doge Gold Floki Swap')}`,
       }
     case '/farms':
       return {
-        title: `${t('Farms')} | ${t('DogeGoldFlokiSwap')}`,
+        title: `${t('Farms')} | ${t('Doge Gold Floki Swap')}`,
       }
     case '/pools':
       return {
-        title: `${t('Pools')} | ${t('DogeGoldFlokiSwap')}`,
+        title: `${t('Pools')} | ${t('Doge Gold Floki Swap')}`,
       }
     case '/lottery':
       return {
-        title: `${t('Lottery')} | ${t('DogeGoldFlokiSwap')}`,
+        title: `${t('Lottery')} | ${t('Doge Gold Floki Swap')}`,
       }
     case '/collectibles':
       return {
-        title: `${t('Collectibles')} | ${t('DogeGoldFlokiSwap')}`,
+        title: `${t('Collectibles')} | ${t('Doge Gold Floki Swap')}`,
       }
     case '/ifo':
       return {
-        title: `${t('Initial Farm Offering')} | ${t('DogeGoldFlokiSwap')}`,
+        title: `${t('Initial Farm Offering')} | ${t('Doge Gold Floki Swap')}`,
       }
     case '/teams':
       return {
-        title: `${t('Leaderboard')} | ${t('DogeGoldFlokiSwap')}`,
+        title: `${t('Leaderboard')} | ${t('Doge Gold Floki Swap')}`,
       }
     case '/profile/tasks':
       return {
-        title: `${t('Task Center')} | ${t('DogeGoldFlokiSwap')}`,
+        title: `${t('Task Center')} | ${t('Doge Gold Floki Swap')}`,
       }
     case '/profile':
       return {
-        title: `${t('Your Profile')} | ${t('DogeGoldFlokiSwap')}`,
+        title: `${t('Your Profile')} | ${t('Doge Gold Floki Swap')}`,
       }
     default:
       return null
