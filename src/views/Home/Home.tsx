@@ -363,16 +363,16 @@ const Home: React.FC = () => {
       <Hero>
         <AuditCard />
         <Heading as="h1" scale="xl" mb="24px" color="blue">
-          {t('Bridging Defi on Web 3.0')}
+          {t('Doge Gold Floki Defi on Web 3.0')}
         </Heading>
         <Text color="white">
           {t(
-            'Bridgeswap is bridging Defi on Web 3.0 from traditional finance in a decentralized manner to create a fair global economy that is sustainable, accessible, and community-driven DAO.',
+            'Doge Gold Floki is bridging Defi on Web 3.0 from traditional finance in a decentralized manner to create a fair global economy that is sustainable, accessible, and community-driven DAO.',
           )}
         </Text>
         {/* <Button variant="primary" style={{margin: "20px 0px"}}>Learn more</Button> */}
         <LearnMoreBtn
-          href="https://bridgeswap-exchange-1.gitbook.io/bridgeswap/"
+          href="https://doge-gold-floki-finance.gitbook.io/dgf/"
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -383,7 +383,7 @@ const Home: React.FC = () => {
         <ComingSoon />
         <BridgeBoard>
           <Heading as="h3" mb="24px" color="primary">
-            {t('A suite of Features Powering BridgeSwap')}
+            {t('A suite of Features Powering Doge Gold Floki Finance')}
           </Heading>
           <FeatsGrid>
             <Card p="15px">
@@ -430,10 +430,10 @@ const Home: React.FC = () => {
 
             <Card p="15px">
               <Heading as="h5" mb="10px" color="text">
-                {t('Defi 2.0 Zap')}
+                {t('Defi 2.0')}
               </Heading>
               <Text small fontSize="12px" color="text">
-                {t('Swap LPs to receive discounted BRIS tokens.')}
+                {t('Swap LPs to receive discounted DGF tokens.')}
               </Text>
               <FeatBtn variant="secondary" scale="sm">
                 <ReactLink to="/defi" color="text">
@@ -558,7 +558,7 @@ const Home: React.FC = () => {
         <StatsValue>
           <BridgeLottery>
             <Text fontSize="12px" mb="15px" color="text">
-              {t('The BridgeSwap Lottery')}
+              {t('The Doge Gold Floki Lottery')}
             </Text>
             <Text fontWeight="700" mb="15px" fontSize="42px">
               {t('Win $0')}
@@ -583,7 +583,7 @@ const Home: React.FC = () => {
 
         <BridgeBoard style={{ marginTop: '20px' }}>
           <Heading as="h5" pt="12px" mb="30px" color="blue">
-            {t('BridgeSwap Partners')}
+            {t('Doge Gold Floki Partners')}
           </Heading>
           <Partners>
             {partners.map((partner) => (
