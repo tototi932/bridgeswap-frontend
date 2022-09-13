@@ -383,7 +383,7 @@ const Home: React.FC = () => {
         <ComingSoon />
         <BridgeBoard>
           <Heading as="h3" mb="24px" color="primary">
-            {t('A suite of Features Powering Doge Gold Floki Finance')}
+            {t('Doge Gold Floki is bridging Defi on Web 3.0 from traditional finance in a decentralized manner to create a fair global economy that is sustainable, accessible, and community-driven DAO.e')}
             {t('A suite of Features Powering Doge Gold Floki Finance')}
           </Heading>
           <FeatsGrid>
