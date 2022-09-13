@@ -103,7 +103,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
        },
      ],
    },
-   //{
+   {
      //label: t('IFO'),
      //icon: 'IfoIcon',
      //href: '/ifo',
