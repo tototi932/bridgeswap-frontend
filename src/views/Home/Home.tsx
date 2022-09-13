@@ -384,6 +384,7 @@ const Home: React.FC = () => {
         <BridgeBoard>
           <Heading as="h3" mb="24px" color="primary">
             {t('A suite of Features Powering Doge Gold Floki Finance')}
+            {t('A suite of Features Powering Doge Gold Floki Finance')}
           </Heading>
           <FeatsGrid>
             <Card p="15px">
