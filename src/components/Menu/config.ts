@@ -102,12 +102,8 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
          href: 'https://bridgeswap.info/accounts',
        },
      ],
-   //},
-   //{
-     //label: t('IFO'),
-     //icon: 'IfoIcon',
-     //href: '/ifo',
-   //},
+   },
+   {
   {
     label: t('More'),
     icon: 'MoreIcon',
