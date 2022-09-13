@@ -82,7 +82,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
   //   ],
  // },
    {
-     label: t('Info'),
+     label: t('Listings'),
     icon: 'InfoIcon',
      items: [
        {
@@ -103,11 +103,11 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
        },
      ],
    },
-   {
-     label: t('IFO'),
-     icon: 'IfoIcon',
-     href: '/ifo',
-   },
+   //{
+     //label: t('IFO'),
+     //icon: 'IfoIcon',
+     //href: '/ifo',
+   //},
   {
     label: t('More'),
     icon: 'MoreIcon',
