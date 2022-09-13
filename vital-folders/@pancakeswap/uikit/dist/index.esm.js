@@ -3284,8 +3284,8 @@ var Icon$p = function (props) {
 
 var Logo$2 = function (_a) {
     _a.isDark; var props = __rest(_a, ["isDark"]);
-    return (React.createElement(Svg, __assign({ width="150.000000pt", height="149.000000pt", viewBox="0 0 150.000000 149.000000", fill: "none" }, props),
-        React.createElement("path", { d: "M96 886 c-3 -13 -9 -31 -12 -40 -5 -14 7 -16 95 -16 l101 0 0 40 040 -89 0 c-86 0 -89 -1 -95 -24z", fill: "#F8A61C" })));
+    return (React.createElement(Svg, __assign({height: "21", viewBox: "0 0 115 21", fill: "none"}, props),
+        React.createElement("path", { d: "M96", fill: "#F8A61C" })));
 };
                                 
 var LogoWithText = React.memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
