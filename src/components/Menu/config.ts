@@ -116,18 +116,18 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
         label: t('Whitepaper'),
         href: 'https://doge-gold-floki-finance.gitbook.io/dgf/',
       },
-      // {
-      //   label: t('Voting'),
-      //   href: 'https://voting.bridgeswap.app',
-      // },
-      // {
-      //   label: t('Github'),
-      //   href: 'https://github.com/Bridgeswap-Dex',
-      // },
-      // {
-      //   label: t('Docs'),
-      //   href: 'https://docs.bridgeswap.app',
-      // },
+       {
+         label: t('SAFU'),
+         href: 'https://voting.bridgeswap.app',
+       },
+       {
+         label: t('KYC'),
+         href: 'https://github.com/Bridgeswap-Dex',
+       },
+       {
+         label: t('AUDIT'),
+         href: 'https://docs.bridgeswap.app',
+       },
       // {
       //   label: t('Blog'),
       //   href: 'https://bridgeswap.medium.com/',
