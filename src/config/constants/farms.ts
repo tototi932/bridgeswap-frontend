@@ -7,7 +7,7 @@ const farms: FarmConfig[] = [
    */
   {
     pid: 0,
-    lpSymbol: 'BRIS',
+    lpSymbol: 'DGF',
     lpAddresses: {
       97: '',
       56: '0x79De52900178bD90c98E278cC30A635E65B18B1A',
@@ -27,7 +27,7 @@ const farms: FarmConfig[] = [
   // },
   {
     pid: 1,
-    lpSymbol: 'BRIS-BNB LP',
+    lpSymbol: 'DGF-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x8B3b22B12bF85F8bC1C6e17Bd09329FbAaFF5f7D',
@@ -37,7 +37,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 2,
-    lpSymbol: 'BRIS-BUSD LP',
+    lpSymbol: 'DGF-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x9ED391218177B6F498625Bf58b8F1c38612630FC',
