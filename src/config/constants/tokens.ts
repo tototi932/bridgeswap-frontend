@@ -4,12 +4,12 @@ const tokens = {
     projectLink: 'https://www.binance.com/',
   },
   bris: {
-    symbol: 'BRIS',
+    symbol: 'DGF',
     address: {
-      56: '0x79De52900178bD90c98E278cC30A635E65B18B1A',
+      56: '0xDfBFFb67295ecfB6cd44bc2DEcd24dc3D55eDd07',
       97: '',
     },
-    decimals: 18,
+    decimals: 9,
     projectLink: 'https://bridgeswap.app/',
   },
   fswap: {
