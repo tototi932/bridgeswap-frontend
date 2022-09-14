@@ -2,7 +2,7 @@ import { ContextApi } from 'contexts/Localization/types'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'BridgeSwap',
+  title: 'DGF Swap',
   description:
     'The AMM you can trust on the BSC network. Bringing you the true meaning of DeFi. Trade and farm tokens, passively, on our platform.',
   image: 'https://bridgeswap.app/images/hero.svg',
