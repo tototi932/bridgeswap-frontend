@@ -3618,15 +3618,15 @@ var links = [
             },
             {
                 label: "Github",
-                href: "https://github.com/Bridgeswap-Dex",
+                href: "https://github.com/",
             },
             {
                 label: "Docs",
-                href: "https://docs.bridgeswap.app",
+                href: "https://doge-gold-floki-finance.gitbook.io/dgf/",
             },
             {
                 label: "Blog",
-                href: "https://bridgeswap.medium.com",
+                href: "https://medium.com/@Doge-Gold-Floki",
             },
         ],
     },
