@@ -182,10 +182,10 @@ const TicketBoard = () => {
                 <PrizePot>
                     <PrizePotDetails>
                         <Heading>
-                            {t(`$${Number(lotteryinfo[11])}`)}
+                            {t(`$0`)}
                         </Heading>
                         <Text fontSize='11px' mb="22px" color='textSubtle'>
-                            {t(`~${Number(lotteryinfo[11])} DGF`)}
+                            {t(`~$0 DGF`)}
                         </Text>
                         <Text color='text'>
                             {t("Your Tickets")}
