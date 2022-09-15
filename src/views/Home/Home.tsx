@@ -363,6 +363,7 @@ const Home: React.FC = () => {
       <Hero>
         <AuditCard />
         <Heading as="h1" scale="xl" mb="24px" color="blue">
+           <img src="images/symbols/certik.png" alt="certik-brand" style={{ width: '50%', height: 'fit-content' }} />
           {t('Doge Gold Floki Defi on Web 3.0')}
         </Heading>
         <Text color="white">
