@@ -54,7 +54,7 @@ const ComingSoon = () => {
                 <SlideImg src="/images/baners/defi2.0-zap.webp" alt='defi2.0-zap'/>
             </div>
             <div style={carouseImg}>
-                <SlideImg src="/images/baners/referral-program.webp" alt='referral-program'/>
+                <SlideImg src="/images/baners/referral-program.png" alt='referral-program'/>
             </div>
             
         </Carousel>
