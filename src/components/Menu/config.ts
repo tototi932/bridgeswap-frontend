@@ -108,9 +108,9 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
      ],
    },
    {
-     label: t('Network status'),
+     label: t('Home Website'),
      icon: 'IfoIcon',
-     href: 'https://pancakeswap.finance/ifo',
+     href: 'https://doge-gold-floki.finance/',
    },
   {
     label: t('More'),
