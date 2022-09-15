@@ -395,7 +395,7 @@ const Home: React.FC = () => {
                 {t('Instantly swap crypto tokens: NO registration or account needed.')}
               </Text>
               <FeatBtn variant="secondary" scale="sm">
-                <Link external href="https://dex.bridgeswap.app/#/swap" color="text">
+                <Link external href="https://dex.doge-gold-floki.finance/#/swap" color="text">
                   Enter exchange
                 </Link>
               </FeatBtn>
@@ -409,7 +409,7 @@ const Home: React.FC = () => {
                 {t('Provide liqudity to earn yield.')}
               </Text>
               <FeatBtn variant="secondary" scale="sm">
-                <Link href="https://dex.bridgeswap.app/#/pool" color="text">
+                <Link href="https://dex.doge-gold-floki.finance/#/pool" color="text">
                   Add liquidity
                 </Link>
               </FeatBtn>
@@ -431,13 +431,13 @@ const Home: React.FC = () => {
 
             <Card p="15px">
               <Heading as="h5" mb="10px" color="text">
-                {t('Defi 2.0')}
+                {t('Launchapd')}
               </Heading>
               <Text small fontSize="12px" color="text">
-                {t('Swap LPs to receive discounted DGF tokens.')}
+                {t('Coming Soon.')}
               </Text>
               <FeatBtn variant="secondary" scale="sm">
-                <ReactLink to="/defi" color="text">
+                <ReactLink to="/Defi" color="text">
                   Swap now
                 </ReactLink>
               </FeatBtn>
@@ -455,7 +455,7 @@ const Home: React.FC = () => {
               </FeatBtn>
             </Card>
 
-            <Card p="15px" style={{ background: 'linear-gradient(155.08deg, #FA00FF -35.34%, #17D2FB 134.08%)' }}>
+            <Card p="15px" style={{ background: 'linear-gradient(155.08deg, #ffd900 -35.34%, #f5b105 134.08%)' }}>
               <Heading as="h5" mb="10px" color="text">
                 {t('Referral Program')}
               </Heading>
