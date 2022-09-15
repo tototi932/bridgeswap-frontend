@@ -44,7 +44,7 @@ const CakeStats = () => {
         <Row>
           <Text color="text" fontSize="14px">{t('New DGF/block')}</Text>
           {/* <CardValue fontSize="14px" decimals={100} value={0.100} /> */}
-          <div>0.01</div>
+          <div>0.00</div>
         </Row>
       </CardBody>
     </StyledCakeStats>
