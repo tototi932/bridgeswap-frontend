@@ -368,17 +368,11 @@ const Home: React.FC = () => {
         </Heading>
         <Text color="white">
           {t(
-            'Doge Gold Floki is bridging Defi on Web 3.0 from traditional finance in a decentralized manner to create a fair global economy that is sustainable, accessible, and community-driven DAO.',
+            ' ',
           )}
         </Text>
         {/* <Button variant="primary" style={{margin: "20px 0px"}}>Learn more</Button> */}
-        <LearnMoreBtn
-          href="https://doge-gold-floki-finance.gitbook.io/dgf/"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Learn more
-        </LearnMoreBtn>
+       
       </Hero>
       <div>
         <ComingSoon />
