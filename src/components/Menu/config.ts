@@ -130,7 +130,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
        },
        {
          label: t('AUDIT'),
-         href: 'https://docs.bridgeswap.app',
+         href: 'https://app.doge-gold-floki.finance/',
        },
       // {
       //   label: t('Blog'),
