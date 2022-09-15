@@ -3,9 +3,9 @@ import { ContextApi } from 'contexts/Localization/types'
 
 const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
   {
-    label: t('Home Website'),
+    label: t('Home'),
     icon: 'HomeIcon',
-    href: 'https://doge-gold-floki.finance/',
+    href: '/',
   },
   {
     label: t('Trade'),
