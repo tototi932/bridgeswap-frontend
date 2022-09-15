@@ -363,7 +363,7 @@ const Home: React.FC = () => {
       <Hero>
         <AuditCard />
         <Heading as="h1" scale="xl" mb="24px" color="blue">
-        <img src="images/symbols/ini.png" alt="certik-brand" style={{ width: '50%', height: 'fit-content' }} />
+        <img src="images/symbols/ini.png" alt="certik-brand" style={{ width: '100%', height: 'fit-content' }} />
         
         </Heading>
         <Text color="white">
