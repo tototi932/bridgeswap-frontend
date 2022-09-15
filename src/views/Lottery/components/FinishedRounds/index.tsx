@@ -209,10 +209,10 @@ const FinishedRounds = () => {
                     </PotTitle>
                     <Prize>
                         <Heading>
-                            {t(`$${Number(lotteryinfo[11])}`)}
+                            {t(`$0`)}
                         </Heading>
                         <Text fontSize='11px' mb="22px" color='textSubtle'>
-                            {t(`~${Number(lotteryinfo[11])} BRIS`)}
+                            {t(`~$0 DGF`)}
                         </Text>
                     </Prize>
                     <Text color='text'>
