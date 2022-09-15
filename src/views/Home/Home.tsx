@@ -434,7 +434,7 @@ const Home: React.FC = () => {
                 {t('Launchapd')}
               </Heading>
               <Text small fontSize="12px" color="text">
-                {t('Web 3.0 Decentralize.')}
+                {t('Web 3.0 decentralized')}
               </Text>
               <FeatBtn variant="secondary" scale="sm">
                 <ReactLink to="/Defi" color="text">
