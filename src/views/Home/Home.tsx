@@ -455,7 +455,7 @@ const Home: React.FC = () => {
               </FeatBtn>
             </Card>
 
-            <Card p="15px" style={{ background: 'linear-gradient(155.08deg, #ffd900 -35.34%, #f5b105 134.08%)' }}>
+            <Card p="15px" style={{ background: 'linear-gradient(155.08deg, #FFD700 -35.34%, #FFD700 134.08%)' }}>
               <Heading as="h5" mb="10px" color="text">
                 {t('Referral Program')}
               </Heading>
