@@ -35,7 +35,7 @@ const CakeStats = () => {
         </Heading> */}
         <Row>
           <Text color="text" fontSize="14px">{t('Total DGF Supply')}</Text>
-          {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} />}
+          {cakeSupply && <CardValue fontSize="14px" value=0 />}
         </Row>
         <Row>
           <Text color="text" fontSize="14px">{t('Total DGF Burned')}</Text>
