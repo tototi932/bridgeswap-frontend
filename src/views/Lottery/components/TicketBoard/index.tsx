@@ -182,10 +182,10 @@ const TicketBoard = () => {
                 <PrizePot>
                     <PrizePotDetails>
                         <Heading>
-                            {t(`$0`)}
+                             {t("Your Tickets")}
                         </Heading>
                         <Text fontSize='11px' mb="22px" color='textSubtle'>
-                            {t(`~$0 DGF`)}
+                             {t("Your Tickets")}
                         </Text>
                         <Text color='text'>
                             {t("Your Tickets")}
