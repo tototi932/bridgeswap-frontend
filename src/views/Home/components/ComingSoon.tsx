@@ -42,19 +42,19 @@ const ComingSoon = () => {
         width='100'        
         >
             <div style={carouseImg}>
-                <SlideImg src="/images/baners/bridgeswap-farms.webp" alt='bridgeswap farms'/>
+               
             </div>
             <div style={carouseImg}>
-                <SlideImg src="/images/baners/bridgeswap-lottery.webp" alt='bridgeswap lottery'/>
+               
             </div>
             <div style={carouseImg}>
-                <SlideImg src="/images/baners/bridgeswap-pools.webp" alt='bridgeswap-pools'/>
+               
             </div>
             <div style={carouseImg}>
-                <SlideImg src="/images/baners/defi2.0-zap.webp" alt='defi2.0-zap'/>
+                
             </div>
             <div style={carouseImg}>
-                <SlideImg src="/images/baners/referral-program.webp" alt='referral-program'/>
+             
             </div>
             
         </Carousel>
