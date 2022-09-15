@@ -42,16 +42,16 @@ const ComingSoon = () => {
         width='100'        
         >
             <div style={carouseImg}>
-                <SlideImg src="/images/baners/bridgeswap-farms.webp" alt='bridgeswap farms'/>
+                <SlideImg src="/images/baners/bridgeswap-farms.png" alt='bridgeswap farms'/>
             </div>
             <div style={carouseImg}>
-                <SlideImg src="/images/baners/bridgeswap-lottery.webp" alt='bridgeswap lottery'/>
+                <SlideImg src="/images/baners/bridgeswap-lottery.png" alt='bridgeswap lottery'/>
             </div>
             <div style={carouseImg}>
-                <SlideImg src="/images/baners/bridgeswap-pools.webp" alt='bridgeswap-pools'/>
+                <SlideImg src="/images/baners/bridgeswap-pools.png" alt='bridgeswap-pools'/>
             </div>
             <div style={carouseImg}>
-                <SlideImg src="/images/baners/defi2.0-zap.webp" alt='defi2.0-zap'/>
+                <SlideImg src="/images/baners/defi2.0-zap.png" alt='defi2.0-zap'/>
             </div>
             <div style={carouseImg}>
                 <SlideImg src="/images/baners/referral-program.png" alt='referral-program'/>
