@@ -3284,8 +3284,7 @@ var Icon$p = function (props) {
 
 var Logo$2 = function (_a) {
     _a.isDark; var props = __rest(_a, ["isDark"]);
-    return (React.createElement(Svg, __assign({height: "21", viewBox: "0 0 115 21", fill: "none"}, props),
-        React.createElement("path", { d: "M96", fill: "#F8A61C" })));
+    return (<img src="images/symbols/sc.png" alt="certik-brand" style={{ width: '100%', height: 'fit-content' }} />);
 };
                                 
 var LogoWithText = React.memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
