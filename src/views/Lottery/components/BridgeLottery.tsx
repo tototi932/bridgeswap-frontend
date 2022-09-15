@@ -52,7 +52,7 @@ const BridgeLottery = () => {
           </Text>
           <Button variant="primary" scale="sm" style={{margin: "10px auto", width: "200px"}} onClick={onPresentBuyTicketsModal}>Buy tickets</Button>
           <Text fontSize='12px' color='text'>
-              {t(`Tickets sold at $${Number(lotteryinfo[3])} per ticket`)}
+              {t(`Tickets sold at $0 per ticket`)} <!--$${Number(lotteryinfo[3])}-->
           </Text>
       </LotteryInfo>
   )
