@@ -50,7 +50,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xDfBFFb67295ecfB6cd44bc2DEcd24dc3D55eDd07',
+      56: '0x5E7239dFc60D54a4c469bfb3a1804C27a4A214D5',
     },
     token: tokens.busd,
     quoteToken: tokens.wbnb,
