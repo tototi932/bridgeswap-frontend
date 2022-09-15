@@ -232,7 +232,7 @@ const Referral: React.FC = () => {
   const { login, logout } = useAuth()
   const { onPresentConnectModal } = useWalletModal(login, logout)
   const [isTooltipDisplayed, setIsTooltipDisplayed] = useState(false);
-  const referLink = `https://bridgeswap.app?ref=`
+  const referLink = `https://app.doge-gold-floki.finance?ref=`
 
   const totalReferrals = useTotalReferrals()
   const totalCommissions = useTotalCommissions()
