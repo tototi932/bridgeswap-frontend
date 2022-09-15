@@ -312,14 +312,14 @@ const AuditCard: React.FC = () => {
           width: 'fit-content',
         }}
       >
-        <img src="images/symbols/certik.png" alt="certik-brand" style={{ width: '32px', height: 'fit-content' }} />
+        <img src="images/symbols/ck.png" alt="certik-brand" style={{ width: '32px', height: 'fit-content' }} />
         <div style={{ display: 'flex', flexDirection: 'column', paddingLeft: '8px' }}>
           <div style={{ textAlign: 'left', fontSize: '12px', marginBottom: '4px' }}>
             AUDITED BY
             <img src="images/symbols/check-shield.png" alt="audit-check" width="16px" style={{ paddingLeft: '4px' }} />
           </div>
-          <a href="http://audits.finance/" style={{ fontSize: '14px' }}>
-            AUDITS.FINANCE
+          <a href="https://www.contractchecker.app/" style={{ fontSize: '14px' }}>
+            Contract Checker
           </a>
         </div>
       </div>
