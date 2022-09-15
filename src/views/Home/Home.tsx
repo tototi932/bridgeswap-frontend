@@ -582,7 +582,7 @@ const Home: React.FC = () => {
             {t('Doge Gold Floki Partners')}
           </Heading>
           <Partners>
-             <img src="images/symbols/check-shield.png" alt="audit-check" width="16px" style={{ paddingLeft: '4px' }} />
+             <img src="images/symbols/bg.png" alt="audit-check" width="16px" style={{ paddingLeft: '4px' }} />
           </Partners>
         </BridgeBoard>
       </div>
