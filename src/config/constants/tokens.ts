@@ -10,7 +10,7 @@ const tokens = {
       97: '',
     },
     decimals: 9,
-    projectLink: 'https://bridgeswap.app/',
+    projectLink: 'https://app.doge-gold-floki.finance/',
   },
   fswap: {
     symbol: 'FSWAP',
