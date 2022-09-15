@@ -438,7 +438,7 @@ const Home: React.FC = () => {
               </Text>
               <FeatBtn variant="secondary" scale="sm">
                 <ReactLink to="/Defi" color="text">
-                  Swap now
+                  Enter now
                 </ReactLink>
               </FeatBtn>
             </Card>
