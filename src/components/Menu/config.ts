@@ -5,7 +5,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
   {
     label: t('Home Website'),
     icon: 'HomeIcon',
-    href: '/',
+    href: 'https://doge-gold-floki.finance/',
   },
   {
     label: t('Trade'),
