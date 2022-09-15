@@ -581,7 +581,7 @@ const Home: React.FC = () => {
           <Heading as="h5" pt="12px" mb="30px" color="blue">
             {t('Doge Gold Floki Partners')}
           </Heading>
-             <img src="images/symbols/bg.png" alt="audit-check" width="16px" style={{ width: '100%' }} />
+             <img src="images/symbols/oficial.png" alt="audit-check" width="16px" style={{ width: '100%' }} />
         </BridgeBoard>
       </div>
     </Page>
