@@ -13,11 +13,11 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     items: [
       {
         label: t('Exchange'),
-        href: 'https://dex.bridgeswap.app/#/swap',
+        href: 'https://dex.doge-gold-floki.finance/#/swap',
       },
       {
         label: t('Liquidity'),
-        href: 'https://dex.bridgeswap.app/#/pool',
+        href: 'https://dex.doge-gold-floki.finance/#/pool',
       },
       
     ],
@@ -122,7 +122,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
       },
        {
          label: t('SAFU'),
-         href: 'https://voting.bridgeswap.app',
+         href: 'https://doge-gold-floki.finance/',
        },
        {
          label: t('KYC'),
