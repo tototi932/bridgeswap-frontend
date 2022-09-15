@@ -3284,7 +3284,7 @@ var Icon$p = function (props) {
 
 var Logo$2 = function (_a) {
     _a.isDark; var props = __rest(_a, ["isDark"]);
-    return (<img src="images/symbols/sc.png" alt="certik-brand" style={{ width: '100%', height: 'fit-content' }} />);
+     React.createElement("path", { d: "M0.1", fill: "#F8A61C" })));
 };
                                 
 var LogoWithText = React.memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
