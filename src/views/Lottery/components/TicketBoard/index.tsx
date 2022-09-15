@@ -169,7 +169,7 @@ const TicketBoard = () => {
                     {t("Next Draw")}
                 </Text>
                 <Draw>
-                    <Text fontSize="12px" color='text'>{`#${lotteryid}`}</Text >
+                    <Text fontSize="12px" color='text'>{`#$0`}</Text >
                     <Text m="0px 4px" fontSize="12px" color='text'>|</Text>
                     <Text fontSize="12px" color='text'>{`Draw: ${date}`}</Text>
                 </Draw>
@@ -185,7 +185,7 @@ const TicketBoard = () => {
                             {t(`$${Number(lotteryinfo[11])}`)}
                         </Heading>
                         <Text fontSize='11px' mb="22px" color='textSubtle'>
-                            {t(`~${Number(lotteryinfo[11])} BRIS`)}
+                            {t(`~${Number(lotteryinfo[11])} DGF`)}
                         </Text>
                         <Text color='text'>
                             {t("Your Tickets")}
