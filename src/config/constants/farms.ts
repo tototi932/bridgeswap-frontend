@@ -30,7 +30,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'DGF-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xDfBFFb67295ecfB6cd44bc2DEcd24dc3D55eDd07',
+      56: '0x8B3b22B12bF85F8bC1C6e17Bd09329FbAaFF5f7D',
     },
     token: tokens.bris,
     quoteToken: tokens.wbnb,
@@ -40,7 +40,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'DGF-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0xDfBFFb67295ecfB6cd44bc2DEcd24dc3D55eDd07',
+      56: '0x9ED391218177B6F498625Bf58b8F1c38612630FC',
     },
     token: tokens.bris,
     quoteToken: tokens.busd,
@@ -61,7 +61,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'TND-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xDfBFFb67295ecfB6cd44bc2DEcd24dc3D55eDd07',
+      56: '0x5E7239dFc60D54a4c469bfb3a1804C27a4A214D5',
     },
     token: tokens.tnd,
     quoteToken: tokens.wbnb,
