@@ -9,18 +9,18 @@ BigNumber.config({
 export const BSC_BLOCK_TIME = 3
 
 // CAKE_PER_BLOCK details
-// 40 BRIS is minted per block
-// 20 BRIS per block is sent to Burn pool (A farm just for burning cake)
-// 10 BRIS per block goes to BRIS syrup pool
-// 10 BRIS per block goes to Yield farms and lottery
-// BRIS_PER_BLOCK in config/index.ts = 40 as we only change the amount sent to the burn pool which is effectively a farm.
-// BRIS/Block in src/views/Home/components/CakeStats.tsx = 20 (40 - Amount sent to burn pool)
+// 40 DGF is minted per block
+// 20 DGF per block is sent to Burn pool (A farm just for burning cake)
+// 10 DGF per block goes to DGF syrup pool
+// 10 DGF per block goes to Yield farms and lottery
+// DGF_PER_BLOCK in config/index.ts = 40 as we only change the amount sent to the burn pool which is effectively a farm.
+// DGF/Block in src/views/Home/components/CakeStats.tsx = 20 (40 - Amount sent to burn pool)
 
 export const CAKE_PER_BLOCK = new BigNumber(40)
 export const BLOCKS_PER_YEAR = new BigNumber((60 / BSC_BLOCK_TIME) * 60 * 24 * 365) // 10512000
 export const CAKE_PER_YEAR = CAKE_PER_BLOCK.times(BLOCKS_PER_YEAR)
-export const BASE_URL = 'https://bridgeswap.app'
-export const BASE_EXCHANGE_URL = 'https://dex.bridgeswap.app'
+export const BASE_URL = 'https://dex.doge-gold-floki.finance/'
+export const BASE_EXCHANGE_URL = 'https://dex.doge-gold-floki.finance'
 export const BASE_ADD_LIQUIDITY_URL = `${BASE_EXCHANGE_URL}/#/add`
 export const BASE_LIQUIDITY_POOL_URL = `${BASE_EXCHANGE_URL}/#/pool`
 export const BASE_BSC_SCAN_URL = 'https://bscscan.com'
