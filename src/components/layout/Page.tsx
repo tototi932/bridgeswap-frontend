@@ -28,7 +28,10 @@ const PageMeta = () => {
   const { pathname } = useLocation()
   const cakePriceUsd = usePriceCakeBusd()
   const cakePriceUsdDisplay = cakePriceUsd.gt(0)
-    ? `$$0`
+       ? `$${cakePriceUsd.toNumber().toLocaleString(undefined, {
+        minimumFractionDigits: 3,
+        maximumFractionDigits: 3,
+      })}`
     : ''
 
   const pageMeta = getCustomMeta(pathname, t) || {}
