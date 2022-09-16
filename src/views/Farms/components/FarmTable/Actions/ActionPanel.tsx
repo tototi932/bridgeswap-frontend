@@ -162,7 +162,7 @@ const ActionPanel: React.FunctionComponent<ActionPanelProps> = ({
           </StakeContainer>
         )}
         <StyledLinkExternal href={bsc}>{t('View Contract')}</StyledLinkExternal>
-        <StyledLinkExternal href={info}>{t('See Pair Info')}</StyledLinkExternal>
+        <StyledLinkExternal href='#'>{t('See Pair Info')}</StyledLinkExternal>
         <TagsContainer>
           {farm.isCommunity ? <CommunityTag /> : <CoreTag />}
           {dual ? <DualTag /> : null}
@@ -178,7 +178,7 @@ const ActionPanel: React.FunctionComponent<ActionPanelProps> = ({
           <Multiplier {...multiplier} />
         </ValueWrapper>
         <ValueWrapper>
-          <Text>{t('Liquidity')}</Text>
+          <Text>{t('Liquidityy')}</Text>
           <Liquidity {...liquidity} />
         </ValueWrapper>
       </ValueContainer>
