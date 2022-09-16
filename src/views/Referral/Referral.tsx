@@ -16,7 +16,7 @@ const InviteFriends = styled.div`
   margin: 0 auto;
   margin-bottom: 10px;
   background-color: #0a0a0a;
-  background-image: url(/images/decorations/);
+  background-image: url(/images/decorations/lottery-prize-bg.svg);
   background-position: right top;
   background-repeat: no-repeat;
   text-align: center;
