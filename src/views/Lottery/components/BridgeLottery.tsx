@@ -15,6 +15,7 @@ const LotteryInfo = styled.div`
     background-repeat: no-repeat;
     background-position: top center;
     flex-direction: column;
+    background-size: 100%;
     justify-content: center;
     border-radius: 12px;
     text-align: center;
