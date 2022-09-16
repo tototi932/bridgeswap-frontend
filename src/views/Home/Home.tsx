@@ -579,7 +579,7 @@ const Home: React.FC = () => {
 
         <BridgeBoard style={{ marginTop: '20px' }}>
           <Heading as="h5" pt="12px" mb="30px" color="blue">
-            {t('Doge Gold Floki Partners')}
+            {t('Doge Gold Floki')}
           </Heading>
              <img src="images/symbols/oficial.png" alt="audit-check" width="16px" style={{ width: '100%' }} />
         </BridgeBoard>
