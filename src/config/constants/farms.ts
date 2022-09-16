@@ -58,10 +58,10 @@ const farms: FarmConfig[] = [
 
   {
     pid: 4,
-    lpSymbol: 'TND-BNB LP',
+    lpSymbol: 'DOGE-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x5E7239dFc60D54a4c469bfb3a1804C27a4A214D5',
+      56: '0xbA2aE424d960c26247Dd6c32edC70B295c744C43',
     },
     token: tokens.tnd,
     quoteToken: tokens.wbnb,
