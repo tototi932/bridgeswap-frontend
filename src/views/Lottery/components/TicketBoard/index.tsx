@@ -171,7 +171,7 @@ const TicketBoard = () => {
                 <Draw>
                     <Text fontSize="12px" color='text'>{`#${lotteryid}`}</Text >
                     <Text m="0px 4px" fontSize="12px" color='text'>|</Text>
-                    <Text fontSize="12px" color='text'>{`Draw: ${date}`}</Text>
+                  
                 </Draw>
 
             </DrawTimeDisplay>
