@@ -194,7 +194,7 @@ const FinishedRounds = () => {
                 <Text mb="22px" fontSize='12px' color='text'>
                     {t(`Round `)}
                     <RoundNum>{`${Number(lotteryid)-1}`}</RoundNum>
-                    {t(` Drawn ${date}`)}
+                    {t(` Drawn `)}
                 </Text>
             </RoundDate>
             <PrizeWinningContainer>
