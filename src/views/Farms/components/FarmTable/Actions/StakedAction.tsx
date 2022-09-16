@@ -117,7 +117,7 @@ const Staked: React.FunctionComponent<StackedActionProps> = ({
       return (
         <ActionContainer>
           <ActionTitles>
-            <Title>{lpSymbol} </Title>
+            <Title>{t('DGF')} </Title>
             <Subtle>{t('Staked').toUpperCase()}</Subtle>
           </ActionTitles>
           <ActionContent>
