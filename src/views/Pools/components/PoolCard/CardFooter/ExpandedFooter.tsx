@@ -74,18 +74,7 @@ const ExpandedFooter: React.FC<ExpandedFooterProps> = ({ pool, account }) => {
     <ExpandedWrapper flexDirection="column">
       <Flex mb="2px" justifyContent="space-between" alignItems="center">
         <Text small>{t('Total staked')}:</Text>
-        <Flex alignItems="flex-start">
-          {totalStaked ? (
-            <>
-              <Balance fontSize="14px" value={getTotalStakedBalance()} />
-              <Text ml="4px" fontSize="14px">
-                {stakingToken.symbol}
-              </Text>
-            </>
-          ) : (
-            <Skeleton width="90px" height="21px" />
-          )}
-        </Flex>
+      
       </Flex>
       {shouldShowBlockCountdown && (
         <Flex mb="2px" justifyContent="space-between" alignItems="center">
