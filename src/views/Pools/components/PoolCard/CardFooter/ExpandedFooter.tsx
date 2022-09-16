@@ -75,7 +75,7 @@ const ExpandedFooter: React.FC<ExpandedFooterProps> = ({ pool, account }) => {
       <Flex mb="2px" justifyContent="space-between" alignItems="center">
         <Text small>{t('Total staked')}:</Text>
         <Flex alignItems="flex-start">
-          <Text small>{t('0')}:</Text>
+          <Text small>{t('0')} DGF</Text>
         </Flex>
       </Flex>
       {shouldShowBlockCountdown && (
