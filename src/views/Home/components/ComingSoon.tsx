@@ -56,6 +56,9 @@ const ComingSoon = () => {
             <div style={carouseImg}>
                 <SlideImg src="/images/baners/referral-program.png" alt='referral-program'/>
             </div>
+            <div style={carouseImg}>
+                <SlideImg src="/images/baners/airdrop.jpeg" alt='airdrop'/>
+            </div>
             
         </Carousel>
     
