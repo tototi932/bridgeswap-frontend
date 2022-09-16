@@ -211,7 +211,7 @@ const StatsValue = styled(Flex)`
 `
 
 const BridgeLottery = styled(Flex)`
-  background-image: url(/images/decorations/bg-design.svg);
+  background-image: url(/images/decorations/fg.png);
   background-repeat: no-repeat;
   background-position: top center;
   flex-direction: column;
