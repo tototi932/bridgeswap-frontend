@@ -126,7 +126,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
        },
        {
          label: t('KYC'),
-         href: 'https://github.com/Bridgeswap-Dex',
+         href: 'https://github.com/#',
        },
        {
          label: t('AUDIT'),
