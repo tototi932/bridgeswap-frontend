@@ -103,7 +103,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
        },
        {
          label: t('Nomics'),
-         href: 'https://nomics.com/',
+         href: 'https://nomics.com/assets/dgf2-doge-gold-floki/',
        },
      ],
    },
