@@ -126,11 +126,11 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
        },
        {
          label: t('KYC'),
-         href: 'https://github.com/#',
+         href: 'https://www.autentk.com/projects/25',
        },
        {
          label: t('AUDIT'),
-         href: 'https://app.doge-gold-floki.finance/',
+         href: 'https://github.com/Coinsult/solidity/blob/main/DogeGoldFlokiAudit.pdf',
        },
       // {
       //   label: t('Blog'),
